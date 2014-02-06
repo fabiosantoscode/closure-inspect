@@ -1,0 +1,33 @@
+{
+  "name": "scope-inspect",
+  "version": "0.0.0",
+  "description": "Adds a .closure property to functions, which you can inspect and retrieve closure values from. For testing",
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "homepage": "http://github.com/fabiosantoscode/closure-inspect",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/fabiosantoscode/closure-inspect.git"
+  },
+  "main": "bin/closure-inspect",
+  "dependencies": {
+    "escodegen": "~1.1.0",
+    "astw": "~0.1.0",
+    "esprima": "~1.0.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-node-inspector": "~0.1.1",
+    "grunt-nodemon": "~0.1.1",
+    "grunt-concurrent": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-open": "~0.2.2",
+    "grunt-wait": "~0.1.0"
+  },
+  "scripts": {
+    "test": "./node_modules/tap/bin/tap.js test"
+  },
+  "license": "MIT"
+}
